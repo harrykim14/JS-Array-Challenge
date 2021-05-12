@@ -7,3 +7,5 @@ Solved 2 problems: expDidOdd, filterAge (5/8) <br/>
 Solved 14 problems: figureSkating, filterOdd, findWord, forEachFilter, forEachFilterIsNaN, forEachMap, forEachReduce, mapAddPercent, mapAppendOrder, reduceMaxValueNIndex, reduceNameNickname, reduceSum, sortByPrice, sortByPriceAndQuantity (5/9) <br/>
 
 Solved 1 problem: filterIntersection (5/10) <br/>
+
+Solved 1 problem : spreadOperatorMaxValue (5/13) <br/>
