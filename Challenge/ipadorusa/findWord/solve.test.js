@@ -1,28 +1,26 @@
 const { solution } = require('./solve');
 
 const test1 = {
-  input: [100, 10, 20, 40],
-  answer: 170,
+  input: ['잠', '자', '고', '싶', '다', '용가리'],
+  answer: true,
 };
-
 const test2 = {
-  input: [120, -20, -30, 0, 15],
-  answer: 85,
+  input: ['맛있는', '용가리치킨'],
+  answer: false,
 };
-
 const test3 = {
-  input: [-10, -20, -30],
-  answer: -60,
+  input: ['고질라', '용가리 ', '울트라맨'],
+  answer: false,
 };
 
-describe('forEachReduce', () => {
+describe('findWord', () => {
   test('test1', () => {
     expect(solution(test1.input)).toEqual(test1.answer);
   });
-  test('test2: 음수가 포함된 계산', () => {
+  test('test2', () => {
     expect(solution(test2.input)).toEqual(test2.answer);
   });
-  test('test3: 음수만 존재하는 계산', () => {
+  test('test3', () => {
     expect(solution(test3.input)).toEqual(test3.answer);
   });
 });
