@@ -1,6 +1,7 @@
 // write your codes
 function solution(inputArray) {
-  return inputArray.includes("용가리");
+    const result = inputArray.filter((el) => el %2 ===1);
+    return result;
 }
 
 exports.solution = solution;
